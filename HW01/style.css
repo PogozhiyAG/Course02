@@ -82,7 +82,6 @@ button {
 }
 
 .header {
-  grid-column: 1/-1;
   height: 1024px;
   padding-top: 220px;
 }
