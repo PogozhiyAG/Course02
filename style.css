@@ -118,4 +118,14 @@ button {
 }
 .game-item:hover {
   box-shadow: 0 0 0 3px #44D2FF;
+}
+
+.game-img_one {
+  background-image: url(./img/game/game01.png);
+}
+.game-img_two {
+  background-image: url(./img/game/game02.png);
+}
+.game-img_three {
+  background-image: url(./img/game/game03.png);
 }/*# sourceMappingURL=style.css.map */

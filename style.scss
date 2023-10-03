@@ -127,3 +127,15 @@ button{
         box-shadow: 0 0 0 3px #44D2FF;
     }
 }
+
+.game-img{
+    &_one{
+        background-image: url(./img/game/game01.png)
+    }
+    &_two{
+        background-image: url(./img/game/game02.png)
+    }
+    &_three{
+        background-image: url(./img/game/game03.png)
+    }
+}
