@@ -64,6 +64,8 @@ button {
   border: none;
   min-width: 234px;
   padding: 14px;
+  display: inline-block;
+  text-align: center;
 }
 .button:hover {
   background-color: #EB443F;
