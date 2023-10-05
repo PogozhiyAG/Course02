@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;    
+    background-color: #000915;
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button{
+    color: inherit;    
+    font-family: inherit;
+}
+
+.position{
+    &_center{
+        margin-left: 120px;
+        margin-right: 120px;
+        padding-left: calc(50% - 610px - 120px);
+        padding-right: calc(50% - 610px - 120px);    
+    }
+}
+
+.text{
+    &_size{
+        &_m{            
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+        } 
+        &_mb{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+        }  
+        &_mbb{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+        }      
+        &_xl{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &_xxl{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+        }
+        &_xxxl{
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 78px;
+        }
+    }
+}
+
+.button{
+    background-color: #9C0332;
+    border-radius: 30px;
+    border: none;
+    min-width: 234px;
+    padding: 14px;
+    display: inline-block;
+    text-align: center;
+    &:hover{
+        background-color: #EB443F;
+        cursor: pointer;
+    }
+}
+
+.back_cover{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 120px 1fr [content-begin] minmax(300px,1200px) 1fr 120px;    
+    
+}
+
+.header{    
+    height: 1024px;
+    padding-top: 220px;
+    background-image: url(./img/header.jpg);
+    &__title{
+        max-width: 700px;
+    }
+    &__sub-title{
+        max-width: 480px;
+        margin-top: 32px;
+    }
+    &__button{
+        margin-top: 44px;
+    }
+    
+}
+
+.content{
+    grid-column: content-begin;
+}
+
+.section-games{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.game-item{
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+    padding: 32px;
+    &:hover{          
+        box-shadow: 0 0 0 3px #44D2FF;
+    }
+}
+
+.game-img{
+    &_one{
+        background-image: url(./img/game/game01.png)
+    }
+    &_two{
+        background-image: url(./img/game/game02.png)
+    }
+    &_three{
+        background-image: url(./img/game/game03.png)
+    }
+}
