@@ -84,12 +84,6 @@ button{
     background-size: cover;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 120px 1fr [content-begin] minmax(300px,1200px) 1fr 120px;    
-    
-}
-
 .header{    
     height: 1024px;
     padding-top: 220px;
@@ -97,18 +91,13 @@ button{
     &__title{
         max-width: 700px;
     }
-    &__sub-title{
+    &__sub-title{        
         max-width: 480px;
         margin-top: 32px;
     }
     &__button{
         margin-top: 44px;
-    }
-    
-}
-
-.content{
-    grid-column: content-begin;
+    }    
 }
 
 .section-games{
@@ -142,3 +131,5 @@ button{
         background-image: url(../img/game/game03.png)
     }
 }
+
+@import 'mobile';
