@@ -86,7 +86,7 @@ button {
 .header {
   height: 1024px;
   padding-top: 220px;
-  background-image: url(./img/header.jpg);
+  background-image: url(../img/header.jpg);
 }
 .header__title {
   max-width: 700px;
