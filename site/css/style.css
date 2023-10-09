@@ -124,11 +124,11 @@ button {
 }
 
 .game-img_one {
-  background-image: url(./img/game/game01.png);
+  background-image: url(../img/game/game01.png);
 }
 .game-img_two {
-  background-image: url(./img/game/game02.png);
+  background-image: url(../img/game/game02.png);
 }
 .game-img_three {
-  background-image: url(./img/game/game03.png);
+  background-image: url(../img/game/game03.png);
 }/*# sourceMappingURL=style.css.map */
