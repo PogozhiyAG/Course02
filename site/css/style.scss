@@ -137,11 +137,16 @@ button{
 
 .section-game{
     min-height: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    column-gap: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center; 
+    &_odd{
+        flex-wrap: wrap-reverse;
+    }   
     &__info{
+        max-width: 584px;
         display: inline-flex;
         gap: 32px;
         flex-direction: column;

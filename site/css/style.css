@@ -129,13 +129,17 @@ button {
 
 .section-game {
   min-height: 800px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
   align-items: center;
-  -moz-column-gap: 135px;
-       column-gap: 135px;
+}
+.section-game_odd {
+  flex-wrap: wrap-reverse;
 }
 .section-game__info {
+  max-width: 584px;
   display: inline-flex;
   gap: 32px;
   flex-direction: column;
@@ -195,7 +199,6 @@ button {
   }
   .section-game {
     min-height: 655px;
-    grid-template-columns: 1fr;
     align-items: center;
   }
   .section-game__info {

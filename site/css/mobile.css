@@ -48,7 +48,6 @@
   }
   .section-game {
     min-height: 655px;
-    grid-template-columns: 1fr;
     align-items: center;
   }
   .section-game__info {
