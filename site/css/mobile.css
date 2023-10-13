@@ -46,4 +46,20 @@
     width: 343px;
     padding: 32px 16px;
   }
+  .section-game {
+    min-height: 655px;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .section-game_info {
+    align-items: center;
+    text-align: center;
+  }
+  .section-game__sub-title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .section-game_img {
+    width: 344px;
+  }
 }/*# sourceMappingURL=mobile.css.map */

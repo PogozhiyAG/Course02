@@ -27,6 +27,9 @@ button{
         padding-left: calc(50% - 610px - 120px);
         padding-right: calc(50% - 610px - 120px);    
     }
+    &_pull_right{
+        float: right;
+    }
 }
 
 .text{
@@ -129,6 +132,23 @@ button{
     }
     &_three{
         background-image: url(../img/game/game03.png)
+    }
+}
+
+.section-game{
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 135px;
+    &_info{
+        display: inline-flex;
+        gap: 32px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &_img{
+        width: 485px;
     }
 }
 

@@ -26,6 +26,9 @@ button {
   padding-left: calc(50% - 610px - 120px);
   padding-right: calc(50% - 610px - 120px);
 }
+.position_pull_right {
+  float: right;
+}
 
 .text_size_m {
   font-weight: 300;
@@ -124,6 +127,24 @@ button {
   background-image: url(../img/game/game03.png);
 }
 
+.section-game {
+  min-height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+}
+.section-game_info {
+  display: inline-flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-game_img {
+  width: 485px;
+}
+
 @media (max-width: 600px) {
   .position_center {
     margin-left: 16px;
@@ -171,5 +192,21 @@ button {
   .game-item {
     width: 343px;
     padding: 32px 16px;
+  }
+  .section-game {
+    min-height: 655px;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .section-game_info {
+    align-items: center;
+    text-align: center;
+  }
+  .section-game__sub-title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .section-game_img {
+    width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
