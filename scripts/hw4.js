@@ -1,6 +1,6 @@
 function task1(){
     for (let i = 0; i < 2; i++) {
-        console.log("Привет");
+        console.log('Привет');
     }
 }
 
@@ -19,9 +19,9 @@ function task3(){
 
 function task4(){
     const obj = {
-        "Коля": 200,
-        "Вася": 300,
-        "Петя": 400
+        'Коля': 200,
+        'Вася': 300,
+        'Петя': 400
     };
 
     for (const key in obj) {
@@ -43,8 +43,8 @@ function task5(){
 
 function task6(){
     const firstReportDay = numericUserInput(
-        "Введите дату первой пятницы (число от 1 до 7)",
-        "Нужно ввести число от 1 до 7",
+        'Введите дату первой пятницы (число от 1 до 7)',
+        'Нужно ввести число от 1 до 7',
         n => n >= 1 && n <= 7
     );
     
