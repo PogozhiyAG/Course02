@@ -26,7 +26,15 @@ button {
   padding-left: calc(50% - 610px - 120px);
   padding-right: calc(50% - 610px - 120px);
 }
+.position_pull_right {
+  float: right;
+}
 
+.text_size_s {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: normal;
+}
 .text_size_m {
   font-weight: 300;
   font-size: 18px;
@@ -94,6 +102,12 @@ button {
   margin-top: 44px;
 }
 
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
 .section-games {
   padding-top: 128px;
   padding-bottom: 128px;
@@ -122,6 +136,42 @@ button {
 }
 .game-img_three {
   background-image: url(../img/game/game03.png);
+}
+
+.section-game {
+  min-height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.section-game_odd {
+  flex-wrap: wrap-reverse;
+}
+.section-game__info {
+  max-width: 584px;
+  display: inline-flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-game__img {
+  width: 485px;
+}
+.section-game_bottom {
+  background: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url("../img/bottom.jfif") center/cover;
+  text-align: center;
+}
+
+.width_max {
+  max-width: 100%;
+}
+
+.align-items_center {
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -171,5 +221,20 @@ button {
   .game-item {
     width: 343px;
     padding: 32px 16px;
+  }
+  .section-game {
+    min-height: 655px;
+    align-items: center;
+  }
+  .section-game__info {
+    align-items: center;
+    text-align: center;
+  }
+  .section-game__sub-title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .section-game__img {
+    width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */

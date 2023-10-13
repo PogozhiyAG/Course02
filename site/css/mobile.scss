@@ -55,4 +55,20 @@
         width: 343px;
         padding: 32px 16px;
     }
+
+    .section-game{
+        min-height: 655px;
+        align-items: center;        
+        &__info{            
+            align-items: center;
+            text-align: center;
+        }
+        &__sub-title{
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        &__img{
+            width: 344px;
+        }
+    }
 }
