@@ -30,6 +30,11 @@ button {
   float: right;
 }
 
+.text_size_s {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: normal;
+}
 .text_size_m {
   font-weight: 300;
   font-size: 18px;
@@ -97,6 +102,12 @@ button {
   margin-top: 44px;
 }
 
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
 .section-games {
   padding-top: 128px;
   padding-bottom: 128px;
@@ -149,6 +160,18 @@ button {
 }
 .section-game__img {
   width: 485px;
+}
+.section-game_bottom {
+  background: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url("../img/bottom.jfif") center/cover;
+  text-align: center;
+}
+
+.width_max {
+  max-width: 100%;
+}
+
+.align-items_center {
+  align-items: center;
 }
 
 @media (max-width: 600px) {
