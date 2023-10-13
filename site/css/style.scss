@@ -142,6 +142,8 @@ button{
     justify-content: space-between;
     gap: 32px;
     align-items: center; 
+    padding-top: 50px;
+    padding-bottom: 50px;
     &_odd{
         flex-wrap: wrap-reverse;
     }   
