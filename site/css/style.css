@@ -135,13 +135,13 @@ button {
   -moz-column-gap: 135px;
        column-gap: 135px;
 }
-.section-game_info {
+.section-game__info {
   display: inline-flex;
   gap: 32px;
   flex-direction: column;
   align-items: flex-start;
 }
-.section-game_img {
+.section-game__img {
   width: 485px;
 }
 
@@ -198,7 +198,7 @@ button {
     grid-template-columns: 1fr;
     align-items: center;
   }
-  .section-game_info {
+  .section-game__info {
     align-items: center;
     text-align: center;
   }
@@ -206,7 +206,7 @@ button {
     padding-left: 12px;
     padding-right: 12px;
   }
-  .section-game_img {
+  .section-game__img {
     width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */

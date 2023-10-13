@@ -60,7 +60,7 @@
         min-height: 655px;        
         grid-template-columns: 1fr;
         align-items: center;        
-        &_info{            
+        &__info{            
             align-items: center;
             text-align: center;
         }
@@ -68,7 +68,7 @@
             padding-left: 12px;
             padding-right: 12px;
         }
-        &_img{
+        &__img{
             width: 344px;
         }
     }

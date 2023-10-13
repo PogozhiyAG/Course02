@@ -51,7 +51,7 @@
     grid-template-columns: 1fr;
     align-items: center;
   }
-  .section-game_info {
+  .section-game__info {
     align-items: center;
     text-align: center;
   }
@@ -59,7 +59,7 @@
     padding-left: 12px;
     padding-right: 12px;
   }
-  .section-game_img {
+  .section-game__img {
     width: 344px;
   }
 }/*# sourceMappingURL=mobile.css.map */
