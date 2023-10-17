@@ -38,11 +38,11 @@ function task6 () {
 };
 
 function task7 () {
-    const getArea = function(){
+    const getArea = function() {
         return Math.PI * (this.radius ** 2);
     };
 
-    const getPerimeter = function(){
+    const getPerimeter = function() {
         return 2 * Math.PI * this.radius;
     };
 
