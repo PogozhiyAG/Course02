@@ -65,6 +65,7 @@ function task8(){
 function task9(){
     const currentDate = new Date();
     currentDate.setDate(currentDate.getDate() + 73);
+    console.log(currentDate);
 }
 
 
